@@ -19,7 +19,10 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'UnityAds.framework'
     s.resources = 'UnityAds.bundle'
     s.frameworks = 'AdSupport',
+                   'AVFoundation',
+                   'CoreMedia',
                    'CoreTelephony',
-                   'StoreKit'
+                   'StoreKit',
+                   'SystemConfiguration'
 
 end
