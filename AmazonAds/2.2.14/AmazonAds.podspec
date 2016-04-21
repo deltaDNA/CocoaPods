@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
     s.homepage     = "https://developer.amazon.com/public/apis/earn/mobile-ads/ios"
 
-    s.license      = { :type => 'Commercial', :file => 'LICENCE.txt' }
+    s.license      = { :type => 'Commercial', :file => 'LICENSE.txt' }
     s.author       = { "Amazon.com, Inc." => "https://developer.amazon.com/public/support/contact/contact-us" }
 
     s.platform     = :ios, "7.0"
