@@ -17,7 +17,7 @@ s.source        = { :http => "https://s3.amazonaws.com/dd-smartads-3rd-party-sdk
 s.source_files = "**/include/FMAdZone/*"
 s.public_header_files = "**/include/FMAdZone/*.h"
 s.vendored_libraries = '**/libFMAdZone.a'
-s.resource_bundle = { 'FMAdZoneResources' => '**/FMAdZoneResources.bundle/**/*' }
+s.resource = 'FMAdZoneResources.bundle'
 
 s.frameworks    = 'AdSupport',
 'AVFoundation',
