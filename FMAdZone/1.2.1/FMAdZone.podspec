@@ -11,7 +11,7 @@ DESC
 
 s.homepage      = 'http://fractionalmedia.com/'
 s.author        = 'FractionalMedia'
-s.platform      = :ios, "8.0"
+s.platform      = :ios, "9.0"
 s.source        = { :http => "https://s3.amazonaws.com/dd-smartads-3rd-party-sdks/FractionalMedia/#{s.version}/FractionalMedia.zip" }
 
 s.source_files = "**/include/FMAdZone/*"
