@@ -15,10 +15,10 @@ Pod::Spec.new do |spec|
 
   # Platform Specifics 
   spec.ios.deployment_target = "10.0"
-  spec.tvos.deployment_target = "9.2"
+  spec.platform = :ios
 
   # Source Location 
-  spec.source       = { :http => "https://github.com/deltaDNA/ios-sdk/releases/download/4.13.0/DeltaDNA-iOS.tar.gz" }
+  spec.source       = { :http => "https://github.com/deltaDNA/ios-sdk/releases/download/4.13.0/DeltaDNA-4.13.0.zip" }
 
   # Source Code 
   spec.vendored_frameworks = 'build/Frameworks/DeltaDNA.xcframework'
